@@ -8,10 +8,10 @@ from tqdm import tqdm
 from pathlib import Path
 
 # ======= USER CONFIGURATION =======
-REFERENCE_FOLDER = Path(r"D:\Music")  # Protected directory (original files)
-SOURCE_FOLDER = Path(r"C:\temp\SYNOLOGY\music")  # Directory to scan for duplicates
-OUTPUT_FOLDER = Path(r"C:\Users\dorek\Desktop\DUPLICATED MUSIC")  # Where to move duplicate files
-LOG_FILE = Path(r"C:\Users\dorek\Desktop\DUPLICATED MUSIC\audio_deduplication.log")
+REFERENCE_FOLDER = Path(r"")  # Protected directory (original files)
+SOURCE_FOLDER = Path(r"")  # Directory to scan for duplicates
+OUTPUT_FOLDER = Path(r"")  # Where to move duplicate files
+LOG_FILE = Path(r"audio_deduplication.log")
 LOGGING_LEVEL = logging.INFO         # DEBUG, INFO, WARNING, ERROR
 THREADS = 8                          # Number of concurrent workers
 BLOCK_SIZE = 65536                   # Block size for reading files (64 KB)
