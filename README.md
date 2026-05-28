@@ -86,3 +86,10 @@ Test coverage includes:
 ## Caution
 
 This script **moves** files from the source folder. Always verify your intended actions with `--dry-run` before operating on real data, and keep backups.
+
+
+---
+
+## Disclaimer
+
+This software is provided "as is", without warranty of any kind, express or implied. The author assumes no liability for any data loss resulting from use of this script. **Always run with `--dry-run` first and maintain backups of your files before performing any deduplication operations.** See [LICENSE](LICENSE) for full terms.
